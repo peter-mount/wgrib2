@@ -99,10 +99,10 @@ versions.each {
     parallel(
       'amd64': {
         buildArch( 'amd64', version )
-      },
+      }/* See issue #1
       'arm64v8': {
         buildArch( 'arm64v8', version )
-      }
+      }*/
     )
   }
 }
