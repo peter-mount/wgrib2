@@ -26,4 +26,7 @@ Currently the following versions are supported:
 
 # Architectures
 
-This is a multiarch image so you can simply use this container on either amd64 or arm64 based servers.
+This is intended to be a multiarch image so you can simply use this container on either amd64 or arm64 based servers.
+
+However currently only amd64 is supported until I figure out why
+configure doesn't work on arm64v6

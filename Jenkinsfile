@@ -9,7 +9,8 @@ imagePrefix = 'wgrib2'
 versions = [ '2.0.7', '2.0.6c', '2.0.4', '2.0.3']
 
 // The architectures to build, in format recognised by docker
-architectures = [ 'amd64', 'arm64v8' ]
+architectures = [ 'amd64' ]
+// For now arm64 not supported until issues are resolved, 'arm64v8'
 
 // The slave label based on architecture
 def slaveId = {
